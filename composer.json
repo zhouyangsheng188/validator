@@ -1,0 +1,21 @@
+{
+    "name": "zhouys/validator",
+    "description": "A validator class adapted from tp5",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "周阳生",
+            "email": "136250909@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">= 7.0.12"
+	},
+	"autoload": {
+        "psr-4": {
+            "zhouys\\": "src/"
+        }
+    }
+}
